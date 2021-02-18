@@ -1,0 +1,229 @@
+/*mke links don't look blue*/
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+/*main navigation head bar*/
+.main-header{
+    background-color: #00365A;
+    padding: 30px;
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color:aliceblue;
+}
+#menu-item{
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    font-weight: 500;
+    padding: 22px;
+    text-align: center;
+    background-color:#0C446A;
+    border-radius: 0px;
+    transition: 0.3s linear;
+    margin-right: 40px;
+}
+#menu-item:hover{
+    background-color: white;
+    color: #0C446A;
+}
+#active-menu{
+    background-color: white;
+    color: #0C446A;
+    font-size: 20px;
+    width: 100px;
+    font-weight: 500;
+    padding: 22px;
+    text-align: center;
+    border-radius: 0px;
+    transition: 0.3s linear;
+    margin-right: 40px;
+}
+/*Destination Bar*/
+.destination-bar{
+    background-color: aliceblue;
+    padding: 30px;
+    text-align: center;
+}
+.destination-bar-item{
+    font-size: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-right: 20px;
+    text-align: center;
+    color: #00365A;
+    font-weight: 400;
+    border-bottom: 1px solid #00365A;
+}
+.destination-bar-item:hover{
+    background-color: #00365A;
+    color: white;
+    border-bottom: 0;
+    padding: 20px;
+}
+/*Destination Sections*/
+#destination-section{
+    padding: 200px;
+    padding-top: 30px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.destination-header{
+    font-size: 30px;
+    border-bottom: 1px solid #00365A;
+    color: #00365A;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.destination-table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px;
+    background-color: aliceblue;
+    border: 1px #00445A thin;
+    box-shadow: #ccc 5px 5px 5px;
+}
+.destination-data{
+    margin-right: auto;
+    
+}
+.destination-data:hover{
+    box-shadow: #ccc 5px 5px 5px;
+    transform: 0.2s;
+}
+.destination-img{
+    height: 270px;
+    width: 405px;
+}
+.destination-name{
+    font-size: 24px;
+    background-color: white;
+    color: #00365A;
+    padding: 20px;
+    border-bottom: #00365A solid 1px;
+}
+/*Specific Details by Destination*/
+#details-section{
+    background-color: white;
+    text-align: center;
+    padding: 200px;
+    padding-top: 20px;
+}
+#details-header{
+    font-size: 22px;
+    color: #00445A;
+    border-bottom: #00445A solid 1px;
+    text-align: center;
+    text-shadow: #ccc 5px 5px 5px;
+}
+.details-img{
+    width: 100%; 
+    box-shadow: #ccc 5px 5px 5px;
+}
+
+#details-table{
+    font-size: 20px;
+    width: 100%;
+    border-bottom: #00445A solid 1px;
+}
+.details-paragraph{
+    text-align: left;
+    width: 70%;
+}
+#details-location{
+    color: rgb(167, 161, 161);
+    font-family: Segoe UI;
+    font-size: 14px;
+}
+#details-location:hover{
+    color: #00445A;
+}
+/*About Us Section*/
+#about-us-section{
+    background-color: white;
+    border-top: 0px;
+    border: solid 1px #ccc;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.about-us-header{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    background-color: #0C446A;
+    font-weight: 500;
+    padding: 30px;
+    margin-top: 55px;
+}
+
+/*Contact Us Section*/
+#contact-section{
+    background-color: white;
+    border: solid 1px #ccc;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 100px;
+    width: 50%;
+    box-shadow: 5px 5px 5px #ccc;
+    padding: 30px ;
+}
+.contact-header{
+    font-size: 22px;
+    text-align: center;
+    color: #00365A;
+}
+/*Input Style*/
+#input-wrapper{
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: center;
+}
+.input-box{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 50px;
+    border: 0;
+    padding: 22px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+} 
+/*Remove Border on input*/
+input:focus,textarea:focus, select:focus{
+    outline: none;
+    border-bottom: #00365A solid 2px;
+}
+/*Animation hovering on input*/
+input:hover{
+    border-bottom: solid 2px #00365A;
+    transition: 0.01s;
+}
+/*Register Button Style*/
+.register-button{
+    background-color: #00365A;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white; 
+    border: none;
+    margin-bottom: 20px;
+}
+/*Animation hovering on Register*/
+.register-button:hover{
+    background-color: aliceblue;
+    color: #0C446A;
+}
